@@ -78,6 +78,11 @@ export default class OrcaSlicer extends SlicerBase {
             perimeter: false,
             support: false
          },
+         'Gap infill': {
+            color: new Color4(1, 1, 1, 1),
+            perimeter: false,
+            support: false
+         },
       };
    }
 
